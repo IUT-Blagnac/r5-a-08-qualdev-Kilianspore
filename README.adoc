@@ -25,6 +25,6 @@ Feature: Is it Friday yet?
 ---
 
 .Exemple d'image insérée en asciidoc
-image::hellocucumber\src\ressources\tp1_test.png
+image::tp1_test.png
 
 == TP2...
