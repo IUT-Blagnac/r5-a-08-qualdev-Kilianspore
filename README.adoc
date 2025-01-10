@@ -134,6 +134,17 @@ image::tp3_test2.png[width:80%]
 
 == TP4
 
+=== Documentation via Cukedoctor
+
+==== Projet du TP1
+image::tp4_test_cukedoctor_hellocucumber.png[width:80%]
+
+==== Projet du TP2
+image::tp4_test_cukedoctor_cucumber_demo.png[width:80%]
+
+==== Projet du TP3
+Le fichier que génère behave ne correspond à ce qu'attends Cukedoctor, je n'ai donc pas pu générer la documentation via Cukedoctor.
+
 .Code de 
 [source,java]
 code
