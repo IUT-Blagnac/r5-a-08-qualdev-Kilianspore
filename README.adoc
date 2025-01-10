@@ -11,12 +11,10 @@ Ce dépôt concerne les rendus de mailto:A_changer@etu.univ-tlse2.fr[Jonh Doe].
 ---
 Feature: Is it Friday yet?
   Everybody wants to know when it's Friday
-
     Scenario Outline: Tests
         Given today is "<day>"
         When I ask whether it's Friday yet
         Then I should be told "<answer>"
-
         Examples:
             | day             | answer |
             | Friday          | TGIF  | 
@@ -33,23 +31,18 @@ image::tp1_test.png[width:80%]
 [source,java]
 ---
 package dojo;
-
 import java.util.ArrayList;
 import java.util.List;
-
 class Order {
     String owner;
     String target;
     List<String> drinks = new ArrayList<>();
-
     public void declareOwner(String owner) {
         this.owner = owner;
     }
-
     public void declareTarget(String target) {
         this.target = target;
     }
-
     public List<String> getDrinks() {
         return drinks;
     }
