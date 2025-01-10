@@ -50,7 +50,7 @@ class Order {
 image::tp2_test.png[width:80%]
 
 == TP3
-Lors de mon stage de deuxième année, j'ai développé une application en python. Étant donné que j'ai aussi du développer un site et le lier à une base de données, je n'ai pas eu le temps d'implementer des tests très poussés, c'est donc pour ça que j'ai fait le choix de repartir sur une interface ^ython pour voir et comprendre comment réaliser des tests, avec python.
+Lors de mon stage de deuxième année, j'ai développé une application en python. Étant donné que j'ai aussi du développer un site et le lier à une base de données, je n'ai pas eu le temps d'implementer des tests très poussés, c'est donc pour ça que j'ai fait le choix de repartir sur une interface python pour voir et comprendre comment réaliser des tests, avec python.
 .Code de compteur.feature
 ```gherkin
 Feature: Compteur
