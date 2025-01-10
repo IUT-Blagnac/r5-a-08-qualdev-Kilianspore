@@ -134,6 +134,68 @@ image::tp3_test2.png[width:80%]
 
 == TP4
 
+=== Documentation minimale avec cucumber
+
+==== Projet du TP1
+``` 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running hellocucumber.RunCucumberTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.525 s -- in hellocucumber.RunCucumberTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.386 s
+[INFO] Finished at: 2025-01-10T16:50:26+01:00
+[INFO] ------------------------------------------------------------------------
+```
+
+==== Projet du TP2
+```
+2 Scenarios (2 passed)
+6 Steps (6 passed)
+0m0,022s
+
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.291 s - in dojo.RunCucumberTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.101 s
+[INFO] Finished at: 2025-01-10T16:49:19+01:00
+[INFO] ------------------------------------------------------------------------
+```
+
+==== Projet du TP3
+```
+  Scenario Outline: RÚinitialiser le compteur -- @1.1   # features/compteur.feature:36
+    Given l'application est lancÚe                      # features/steps/compteur_steps.py:5
+    When je clique sur "Augmenter"                      # features/steps/compteur_steps.py:10
+    And je clique sur "RÚinitialiser"                   # features/steps/compteur_steps.py:10
+    Then le compteur doit afficher "Compteur : 0"       # features/steps/compteur_steps.py:32
+
+  Scenario Outline: RÚinitialiser le compteur -- @1.2   # features/compteur.feature:37
+    Given l'application est lancÚe                      # features/steps/compteur_steps.py:5
+    When je clique sur "RÚduire"                        # features/steps/compteur_steps.py:10
+    And je clique sur "RÚinitialiser"                   # features/steps/compteur_steps.py:10
+    Then le compteur doit afficher "Compteur : 0"       # features/steps/compteur_steps.py:32
+
+1 feature passed, 0 failed, 0 skipped
+6 scenarios passed, 0 failed, 0 skipped
+28 steps passed, 0 failed, 0 skipped, 0 undefined
+Took 0m0.695s
+```
+
 === Documentation via Cukedoctor
 
 ==== Projet du TP1
