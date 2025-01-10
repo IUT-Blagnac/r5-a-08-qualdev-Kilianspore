@@ -5,7 +5,7 @@ Feature: Cocktail Ordering
   Scenario Outline: Creating an empty order
     Given <from> who wants to buy a drink
     When  an order is declared for <to>
-    Then  there is <nbDrinks> cocktails in the order
+    Then  there is/are <nbDrinks> drinks in the order
 
     Examples:
           | from  | to       | nbDrinks    |

@@ -25,7 +25,7 @@ public class StepDefinitions {
         order.declareTarget(person);
     }
 
-    @Then("there is/are {int} drinks in the order")
+    @Then("there is\\/are {int} drinks in the order")
     public void there_is_are_nb_drinks_in_the_order(Integer count) {
         List<String> drinks = order.getDrinks();
         assertEquals((int)count, drinks.size());
