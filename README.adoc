@@ -48,3 +48,12 @@ class Order {
 
 .Les tests du TP2 passent
 image::tp2_test.png[width:80%]
+
+== Template_TP
+
+.Code de 
+[source,java]
+code
+
+.Les tests du tpX passent
+image::tpX_test.png[width:80%]
