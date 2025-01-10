@@ -29,7 +29,6 @@ def step_when_enter_value_in_field(context, value, label_text):
                 return
     raise Exception(f"Champ pour {label_text} non trouvé")
 
-
 @then('le compteur doit afficher "{expected_text}"')
 def step_then_verify_counter(context, expected_text):
     label_text = context.app.label.cget("text")
