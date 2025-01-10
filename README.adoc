@@ -126,8 +126,8 @@ def step_then_verify_counter(context, expected_text):
     assert label_text == expected_text, f"Attendu: {expected_text}, obtenu: {label_text}"
 ```
 
-.Les tests du TP3 passent
 image::tp3_test1.png[width:80%]
+.Les tests du TP3 passent
 image::tp3_test2.png[width:80%]
 
 == Template_TP
