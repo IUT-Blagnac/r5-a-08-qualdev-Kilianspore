@@ -120,11 +120,11 @@ def step_when_enter_value_in_field(context, value, label_text):
                 return
     raise Exception(f"Champ pour {label_text} non trouvé")
 
-
 @then('le compteur doit afficher "{expected_text}"')
 def step_then_verify_counter(context, expected_text):
     label_text = context.app.label.cget("text")
     assert label_text == expected_text, f"Attendu: {expected_text}, obtenu: {label_text}"
+```
 
 .Les tests du TP3 passent
 image::tp3_test1.png[width:80%]
