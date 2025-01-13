@@ -4,7 +4,7 @@
 
 Ce dépôt concerne les rendus de mailto:A_changer@etu.univ-tlse2.fr[Jonh Doe].
 
-== TP1
+== TP1 (réalisé avec Wail Gana)
 
 .Code de is_it_friday.feature
 ```gherkin
@@ -24,7 +24,7 @@ Feature: Is it Friday yet?
 .Les tests du tp1 passent
 image::tp1_test.png[width:80%]
 
-== TP2
+== TP2 (réalisé avec Wail Gana)
 
 .Code de Order.java
 [source,java]
@@ -49,7 +49,7 @@ class Order {
 .Les tests du TP2 passent
 image::tp2_test.png[width:80%]
 
-== TP3
+== TP3 (réalisé avec Wail Gana)
 Lors de mon stage de deuxième année, j'ai développé une application en python. Étant donné que j'ai aussi du développer un site et le lier à une base de données, je n'ai pas eu le temps d'implementer des tests très poussés, c'est donc pour ça que j'ai fait le choix de repartir sur une interface python pour voir et comprendre comment réaliser des tests, avec python.
 
 .Code de compteur.feature
@@ -132,7 +132,7 @@ image::tp3_test1.png[width:80%]
 .Les tests du TP3 passent
 image::tp3_test2.png[width:80%]
 
-== TP4
+== TP4 (réalisé avec Wail Gana)
 
 === Documentation minimale avec cucumber
 
